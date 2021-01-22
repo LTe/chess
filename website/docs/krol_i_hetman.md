@@ -1,15 +1,22 @@
 ---
 id: lesson_1 
-title: Lekcja 1
-sidebar_label: Lekcja 1
+title: Szach królem i Hetmanem
+sidebar_label: Szach królem i Hetmanem
 slug: /
 ---
 
 import PGN from '../src/components/PGN'
 
-## Lekcja 1
+Aby dać mata królem i hetmanem należy zepchnąć króla przeciwnika na bandę (bok szachownicy).
+Aby tego dokonać musisz wymusić pozycję w której:
+ 
+* króle są na przeciwko siebie
+* jest Twój ruch
 
-Tak to musze zrobic
+Następnie zaczynamy:
+
+* szach hetmanem
+* trzymanie odłegłości skoczkowej (nie dalej niż koń może się posunąć)
 
 <PGN>
 [Event "?"]
@@ -32,5 +39,5 @@ Ke3 $1 {[%cal Ge3e5,Ge5f5] zawsz eodlgelosc skoczkowa} Kg5 (2... Ke5 {krole sa
 na przeciwko i spychamy} 3. Qa5+) 3. Kf3 Kh5 4. Kg3 {w koncu krol musi zagrac}
 Kg5 5. Qa5+ {[%cal Rg3f4,Rg3g4,Rg3h4]} Kf6 6. Kg4 $1 Ke6 (6... Kg6 7. Qa6+) 7.
 Kf4 Kd6 8. Ke4 Kc6 9. Kd4 Kd6 10. Qa6+ Kd7 11. Ke5 Kc7 12. Kd5 Kd7 13. Qb7+ Ke8
-14. Kd6 {[%cal Gd6e8]} Kf8 15. Ke6 Kg8 16. Kf6 Kh8 17. Kg6 Kg8 18. Qb8# *
+14. Kd6 {[%cal Gd6e8]} Kf8 15. Ke6 Kg8 16. Kf6 Kh8 17. Kg6 Kg8+ 18. Qb8# *
 </PGN>

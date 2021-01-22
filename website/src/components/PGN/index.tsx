@@ -18,7 +18,7 @@ function PGN(props) {
         locale: 'pl',
         startPlay: 1,
         showResult: true,
-        boardSize: '400',
+        boardSize: '340',
         pieceStyle: 'chesscom'
       }
     )
