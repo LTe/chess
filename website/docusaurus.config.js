@@ -14,6 +14,7 @@ module.exports = {
       logo: {
         alt: 'My Site Logo',
         src: 'img/Chess_qdt45.svg',
+        srcDark: 'img/white.svg'
       },
       items: [
         {
