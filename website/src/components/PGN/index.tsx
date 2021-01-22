@@ -1,15 +1,15 @@
-import React, {useEffect, useRef, useState} from 'react'
-import {pgnView} from '../pgn-viewer/pgnv'
+import React, {useLayoutEffect, useRef} from 'react'
 import Children from 'react-children-utilities'
 import * as uuid from 'uuid';
 
 function PGN(props) {
   const id = 'board-' + uuid.v4();
   const element = useRef(null);
-
   const gameDecription = Children.onlyText(props.children);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
+    const { pgnView } = require('../pgn-viewer/pgnv')
+
     pgnView(
       id,
       {
@@ -23,8 +23,6 @@ function PGN(props) {
       }
     )
   }, [element])
-
-  console.debug(id)
 
   return (
     <div>
