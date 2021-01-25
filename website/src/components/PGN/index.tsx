@@ -4,19 +4,26 @@ import * as uuid from 'uuid';
 import './style.css'
 
 function PGN(props) {
-  const id = 'board-' + uuid.v4();
-  const element = useRef(null);
-  const gameDecription = Children.onlyText(props.children);
+  const element = useRef(null)
+  const gameDecription = Children.onlyText(props.children)
   const [fen, setFen] = useState('')
+  const [id, setId] = useState('')
   const fenAsWhite = fen.replace(" b ", " w ")
   const fenAsBlack = fen.replace(" w ", " b ")
 
   const fenURL = (fen) => {
-    return "https://lichess.org/editor/" + fen.replace(" ", "_")
+    return "https://lichess.org/editor/" + fen
   }
 
   useLayoutEffect(() => {
+    if (id === '') setId('board-' + uuid.v4())
+  })
+
+  useLayoutEffect(() => {
+    if (id === '') return
+
     const { pgnView } = require('../pgn-viewer/pgnv')
+
     const game = pgnView(
       id,
       {
@@ -32,8 +39,7 @@ function PGN(props) {
     )
 
     setFen(game.base.chess.fen())
-  }, [element])
-
+  }, [element, id])
 
   return (
     <div>
