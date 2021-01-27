@@ -22,7 +22,7 @@ function PGN(props) {
   useLayoutEffect(() => {
     if (id === '') return
 
-    const { pgnView } = require('../pgn-viewer/pgnv')
+    const { pgnView } = require('@mliebelt/pgn-viewer')
 
     const game = pgnView(
       id,
