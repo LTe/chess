@@ -1,5 +1,4 @@
 ---
-id: lesson_3
 title: Szach królem i Wieżą + Hetman
 sidebar_label: Szach królem i Wieżą + Hetman
 ---

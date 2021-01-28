@@ -1,5 +1,4 @@
 ---
-id: lesson_2
 title: Szach królem i Wieżą
 sidebar_label: Szach królem i Wieżą
 ---

@@ -17,6 +17,7 @@
     "@mdx-js/react": "^1.6.21",
     "@mliebelt/pgn-viewer": "../../PgnViewerJS/modules/pgn-viewer",
     "clsx": "^1.1.1",
+    "docusaurus-plugin-auto-sidebars": "^1.0.7",
     "install": "^0.13.0",
     "lodash": "^4.17.20",
     "lodash-uuid": "^0.0.3",

@@ -1,5 +1,4 @@
 ---
-id: lesson_1 
 title: Szach królem i Hetmanem
 sidebar_label: Szach królem i Hetmanem
 slug: /

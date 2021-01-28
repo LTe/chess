@@ -1,5 +1,4 @@
 ---
-id: lesson_8
 title: Roszada przez szach
 sidebar_label: Roszada przez szach
 ---

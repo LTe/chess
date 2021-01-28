@@ -1,5 +1,4 @@
 ---
-id: lesson_12
 title: Dwa gońce
 sidebar_label: Dwa gońce
 ---

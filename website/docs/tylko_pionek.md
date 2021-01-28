@@ -1,5 +1,4 @@
 ---
-id: lesson_5
 title: Tylko pionek
 sidebar_label: Tylko pionek
 ---
