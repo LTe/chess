@@ -7783,6 +7783,13 @@ node-libs-browser@^2.2.1:
     util "^0.11.0"
     vm-browserify "^1.0.1"
 
+node-recursive-directory@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/node-recursive-directory/-/node-recursive-directory-1.2.0.tgz#76fe99cc0b6b3a4f9f6837b43cd2a7647ecddd96"
+  integrity sha512-bXNN7lgqqyGHERBSBhAe9sAhnAzrD3I/qX6aHHZTBet6fCPNow3xvUyAIRtQfzBZTc362wr9n89nq4i8wHBvLg==
+  dependencies:
+    glob "^7.1.6"
+
 node-releases@^1.1.52, node-releases@^1.1.69:
   version "1.1.70"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-1.1.70.tgz#66e0ed0273aa65666d7fe78febe7634875426a08"
