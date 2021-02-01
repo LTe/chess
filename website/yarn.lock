@@ -1496,8 +1496,10 @@
     "@mliebelt/pgn-parser" "^1.1.4"
     chess.js "^0.10.3"
 
-"@mliebelt/pgn-viewer@../../PgnViewerJS/modules/pgn-viewer":
-  version "1.4.2"
+"@mliebelt/pgn-viewer@^1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@mliebelt/pgn-viewer/-/pgn-viewer-1.4.3.tgz#4d413e7fe11eb3f0ec3ac62924751b44f40ef584"
+  integrity sha512-kHPFGTAafj4Jpu69xiBahcXHmeY+cctT3b3vYqt1zC/zL11tKNdhQbcwsz2erRWXHA9RS8MhvYWAm2uiK9JM+A==
   dependencies:
     "@mliebelt/pgn-reader" "^1.1.6"
     chessground "^7.6.12"
