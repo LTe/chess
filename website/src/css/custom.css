@@ -28,6 +28,10 @@
   display: none;
 }
 
+.error {
+  display: none;
+}
+
 textarea.pgn {
   margin-top: 1rem;
   width: 100%;
