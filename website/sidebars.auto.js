@@ -50,6 +50,19 @@ module.exports = {
                     "Lessons/3/4.pgn",
                     "Lessons/3/5.pgn"
                 ]
+            },
+            {
+                "type": "category",
+                "label": "4",
+                "items": [
+                    "Lessons/4/1.pgn",
+                    "Lessons/4/2.pgn",
+                    "Lessons/4/3.pgn",
+                    "Lessons/4/4.pgn",
+                    "Lessons/4/5.pgn",
+                    "Lessons/4/6.pgn",
+                    "Lessons/4/zasady.txt"
+                ]
             }
         ]
     },
@@ -62,6 +75,7 @@ module.exports = {
     "manewr_trojkata",
     "przelom",
     "roszada",
-    "tylko_pionek"
+    "tylko_pionek",
+    "zasady_debiutowe"
 ]
 };
