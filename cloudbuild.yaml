@@ -1,0 +1,7 @@
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'gcr.io/seismic-iridium-261513/chess', '.',
+          '--cache-from', 'gcr.io/seismic-iridium-261513/chess:latest' ]
+- name: 'gcr.io/seismic-iridium-261513/chess'
+  args: ['gsutil -m cp -r /app/* gs://chess.pbuttergirl.com/']
+images: [ 'gcr.io/seismic-iridium-261513/chess' ]

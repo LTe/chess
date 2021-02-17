@@ -13,13 +13,12 @@ $PGN$
 `;
 
 function render(title, pgn) {
-    const formattedPGN = pgn.toString('utf-8')
-    return template.replace("$title$", title).replace("$PGN$", formattedPGN)
+    const parsedPGN = pgn.toString('utf-8').split(/\r\n\r/)
+    const escapedGame = [parsedPGN[0], parsedPGN[1].replace(/(\r\n|\n|\r)/gm, ""), ""].join("\n\n")
+    return template.replace("$title$", title).replace("$PGN$", escapedGame)
 }
 
 function log(text) {
-    process.stdout.clearLine();
-    process.stdout.cursorTo(0);
     process.stdout.write(text)
 }
 
@@ -30,11 +29,13 @@ files.then((result) => {
         const { dirname, filename, fullpath } = element
         const title = `Lekcja ${dirname} / ${filename}`
 
-        fs.readFile(fullpath, (error, data) => {
-	    log(`Compile: ${dirname}/${filename}`)
-            fs.mkdir(`docs/lessons/${dirname}/`, () => {})
-            fs.writeFile(`docs/lessons/${dirname}/${filename}.md`, render(title, data), () => {})
-        })
+        if (filename.search('pgn') > 0) {
+            fs.readFile(fullpath, (error, data) => {
+                log(`Compile: ${dirname}/${filename}`)
+                fs.mkdir(`docs/lessons/${dirname}/`, () => {})
+                fs.writeFile(`docs/lessons/${dirname}/${filename}.md`, render(title, data), () => {})
+            })
+        }
     })
 })
 

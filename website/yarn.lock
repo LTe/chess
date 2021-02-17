@@ -1496,8 +1496,8 @@
     "@mliebelt/pgn-parser" "^1.1.4"
     chess.js "^0.10.3"
 
-"@mliebelt/pgn-viewer@../../PgnViewerJS/modules/pgn-viewer":
-  version "1.4.3"
+"@mliebelt/pgn-viewer@../pgn-viewer":
+  version "1.4.2"
   dependencies:
     "@mliebelt/pgn-reader" "^1.1.6"
     chessground "^7.6.12"
