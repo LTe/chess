@@ -14,7 +14,7 @@ $PGN$
 
 function render(title, pgn) {
     const parsedPGN = pgn.toString('utf-8').split(/\r\n\r/)
-    const escapedGame = [parsedPGN[0], parsedPGN[1].replace(/(\r\n|\n|\r)/gm, ""), ""].join("\n\n")
+    const escapedGame = [parsedPGN[0], parsedPGN[1].replace(/(\r\n|\n|\r)/gm, " "), ""].join("\n\n")
     return template.replace("$title$", title).replace("$PGN$", escapedGame)
 }
 
