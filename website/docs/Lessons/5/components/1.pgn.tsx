@@ -1,0 +1,44 @@
+
+import React from 'react'
+import PGN from '../../../../src/components/PGN'
+
+function Game() {
+  return (
+    <PGN>
+        {`﻿[Event "Let's Play!"]
+[Site "Chess.com"]
+[Date "2021.02.07"]
+[Round "?"]
+[White "LTe_e"]
+[Black "imri1"]
+[Result "1/2-1/2"]
+[ECO "B18"]
+[WhiteElo "1205"]
+[BlackElo "1248"]
+[Annotator "Marcin"]
+[PlyCount "104"]
+[EventDate "2021.??.??"]
+
+
+1. e4 c6 2. d4 d5 3. Nc3 dxe4 4. Nxe4 Bf5 5. Bd3 $2 (5. Ng3 Bg6 6. Nf3) 5...
+Qd5 $2 (5... Qxd4) 6. Ne2 Bxe4 $2 {[%cal Gd5e4,Ge4d5] [#]} 7. O-O $2 (7. Nf4 $2
+Qxd4) (7. c4 $1 Qa5+ 8. Bd2 Qf5 9. Ng3 {[%csl Re4][%cal Gg3e4,Gg3f5]
+jednoczesny atak na 2 figury. Biale wygrywaja}) 7... Nf6 $2 (7... Bxd3) 8. Nc3
+Qxd4 9. Bxe4 Qxd1 10. Rxd1 e6 11. Bf3 Na6 12. a3 Bc5 $2 (12... Be7 {[%cal
+Ga8d8]}) 13. b4 Bb6 14. b5 Nb8 $2 15. a4 Ba5 16. Bb2 O-O 17. Ne4 Nxe4 18. Bxe4
+a6 19. Bd4 Rd8 20. Bc3 Rxd1+ $2 {nie wolno oddawac wolnej linii} 21. Rxd1 Bc7
+22. bxc6 Nxc6 23. Rb1 Rd8 24. g4 h6 25. Rxb7 Be5 26. Rb6 Bxc3 27. Rxc6 {
+to jest remis, bo roznobarwne gonce} Bb4 28. Rxa6 g6 29. Kg2 Rd4 30. Bf3 $6 (
+30. Kf3) 30... Rc4 31. Rc6 Rxc6 32. Bxc6 f5 33. f3 Kg7 34. Bd7 Kf6 35. gxf5
+exf5 36. Kf2 g5 37. h3 h5 38. Be8 h4 39. Ke3 Ke5 40. Bc6 Bc5+ 41. Kd3 g4 $4 (
+41... Kf4 $1) 42. fxg4 fxg4 43. hxg4 Kf4 44. Kc4 Ba7 45. a5 h3 46. a6 Kxg4 47.
+Bh1 Kf4 48. Kd5 Kf5 49. c4 Kf6 {[%cal Rd5d6] [#]} 50. c5 $2 (50. Kd6 $1 {
+nie wolno wpuscic krola} Bb8+ 51. Kc6 {[%cal Gc6b7]} Ke5 52. Kb7 Bd6 53. a7 $18
+) 50... Ke7 51. c6 h2 52. Be4 Bb6 1/2-1/2
+
+`}
+    </PGN>
+  )
+}
+
+export default Game;

@@ -5,21 +5,40 @@ const template = `---
 title: $title$
 ---
 
-import PGN from '../../../src/components/PGN'
+import Game from './components/$name$'
 
-<PGN>
-$PGN$
-</PGN>
+## Notes
+
+<Game/>
 `;
 
-function render(title, pgn) {
+const componentTemplate = `
+import React from 'react'
+import PGN from '../../../../src/components/PGN'
+
+function Game() {
+  return (
+    <PGN>
+        {\`$PGN$\`}
+    </PGN>
+  )
+}
+
+export default Game;
+`;
+
+function renderMarkdown(title, name) {
+    return template.replace("$title$", title).replace("$name$", name)
+}
+
+function renderComponent(pgn) {
     const parsedPGN = pgn.toString('utf-8').split(/\r\n\r/)
-    const escapedGame = [parsedPGN[0], parsedPGN[1].replace(/(\r\n|\n|\r)/gm, " "), ""].join("\n\n")
-    return template.replace("$title$", title).replace("$PGN$", escapedGame)
+    const escapedGame = [parsedPGN[0], parsedPGN[1], ""].join("\n\n")
+    return componentTemplate.replace("$PGN$", escapedGame)
 }
 
 function log(text) {
-    process.stdout.write(text)
+    process.stdout.write(text + "\n")
 }
 
 const files = getFiles('../lessons', true); // add true
@@ -33,7 +52,9 @@ files.then((result) => {
             fs.readFile(fullpath, (error, data) => {
                 log(`Compile: ${dirname}/${filename}`)
                 fs.mkdir(`docs/lessons/${dirname}/`, () => {})
-                fs.writeFile(`docs/lessons/${dirname}/${filename}.md`, render(title, data), () => {})
+                fs.mkdir(`docs/lessons/${dirname}/components/`, () => {})
+                fs.writeFile(`docs/lessons/${dirname}/${filename}.md`, renderMarkdown(title, filename), {flag: 'wx'}, () => {})
+                fs.writeFile(`docs/lessons/${dirname}/components/${filename}.tsx`, renderComponent(data), () => {})
             })
         }
     })

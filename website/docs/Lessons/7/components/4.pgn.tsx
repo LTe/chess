@@ -1,0 +1,33 @@
+
+import React from 'react'
+import PGN from '../../../../src/components/PGN'
+
+function Game() {
+  return (
+    <PGN>
+        {`﻿[Event "?"]
+[Site "?"]
+[Date "2021.03.03"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[Annotator "chess"]
+[SetUp "1"]
+[FEN "8/1k6/8/1K6/1P6/8/8/8 w - - 0 1"]
+[PlyCount "11"]
+[SourceVersionDate "2021.03.03"]
+
+
+{[#] W tej pozycji przy ruchu bialych jest remis, bo traca one opozycje} 1. Kc5
+Kc7 $1 {opozycja, ruch bialych} 2. b5 (2. Kb5 Kb7 $11) 2... Kb7 3. b6 Kb8 $1 {
+[%cal Gc5c6,Gb8c8] czarne czekaja na} (3... Ka6 $4 4. Kc6 $18) (3... Kc8 $4 4.
+Kc6 {opozycja i ruch czarnych!!!} Kb8 5. b7 Ka7 6. Kc7 $18) 4. Kc6 {i stawiaja
+krola w opozycji} Kc8 {ruch bialych} 5. b7+ Kb8 6. Kb6 $11 *
+
+`}
+    </PGN>
+  )
+}
+
+export default Game;

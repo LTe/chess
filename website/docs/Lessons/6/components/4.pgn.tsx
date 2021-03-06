@@ -1,0 +1,35 @@
+
+import React from 'react'
+import PGN from '../../../../src/components/PGN'
+
+function Game() {
+  return (
+    <PGN>
+        {`﻿[Event "?"]
+[Site "?"]
+[Date "2021.02.24"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[Annotator "chess"]
+[SetUp "1"]
+[FEN "7k/R7/8/8/8/8/p4K2/r7 w - - 0 1"]
+[PlyCount "21"]
+[SourceVersionDate "2021.02.24"]
+
+
+{[#] Biale zaczynaja i uzyskuja remis.} 1. Kg2 $1 {[%csl Rg1,Rh1] czarne nie
+maja teraz dobrego ruchu wieza, bo nie moga wejsc na h1} (1. Ke2 $4 Rh1 $1 {
+grozi a1H} 2. Rxa2 Rh2+ 3. Ke3 Rxa2 $19) (1. Kf3 $4 Rf1+ 2. Ke2 a1=Q $19) 1...
+Kg8 2. Ra8+ Kf7 3. Ra7+ Ke6 4. Ra6+ Kd5 5. Ra5+ Kc4 6. Ra8 {teraz szachy po 8
+linii. Krol nie ma gdzie sie schowac!} Kb3 7. Rb8+ Kc2 8. Ra8 {uniemozliwia
+ruch czarnej wiezy, a ona musi bronic piona. Czarne maja tylko ruchy krolem i
+beda szachowane} Kb2 9. Rb8+ Kc2 10. Ra8 Kb2 11. Rb8+ $11 *
+
+`}
+    </PGN>
+  )
+}
+
+export default Game;
