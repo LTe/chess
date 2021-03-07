@@ -145,6 +145,7 @@ module.exports = {
         ]
     },
     "blokowanie_skoczka",
+    "hello",
     "przelom",
     "zasady_debiutowe"
 ]
