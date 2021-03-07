@@ -14,7 +14,7 @@ Następnie zaczynamy:
 
 Kwadrat:
 
-![kwadrat](kwadrat.png)
+![kwadrat](Lessons/1/kwadrat.png)
 
 
 <PGN>
@@ -38,26 +38,3 @@ kwadrat i krol nie moze do niego wejsc} Kb4 2. f6 {[%cal Gf6d6,Gd6d8]} Kc5 3.
 f7 {[%cal Gf7e7,Ge7e8]} Kd6 4. f8=Q+ $18 *
 </PGN>
 
-## Kiedy zasada nie obowiązuje?
-
-Zasada kwadratu nie obowiązuje (tak naprawdę kwadrat się zmniejsza o jedno pole).
-Jeżeli na najkrótszej drodze króla stoi pion.
-
-<PGN>
-[Event "?"]
-[Site "?"]
-[Date "2021.01.21"]
-[Round "?"]
-[White "?"]
-[Black "?"]
-[Result "*"]
-[Annotator "Marcin"]
-[SetUp "1"]
-[FEN "8/8/3p4/8/5P2/k7/8/K7 b - - 0 1"]
-[PlyCount "8"]
-[SourceVersionDate "2021.01.21"]
-
-{[%csl Rd6][%cal Gf4b4,Gb4b8,Ra3f8] [#] Czarne wchodza do kwadratu, ale nie
-lapia piona, bo na najkrotszej drodze stoi ich wlasny pion} 1... Kb4 2. f5 Kc5
-3. f6 {[%cal Gf6d6,Gd6d8]} Kd5 4. f7 Ke6 5. f8=Q *
-</PGN>
