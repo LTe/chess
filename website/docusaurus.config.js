@@ -3,7 +3,7 @@ module.exports = {
   tagline: 'Personal chess notes',
   url: 'https://chess.pbuttergirl.com/',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'LTe', // Usually your GitHub org/user name.
