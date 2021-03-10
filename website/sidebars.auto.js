@@ -141,6 +141,22 @@ module.exports = {
                     "Lessons/7/9.pgn",
                     "Lessons/7/10.pgn"
                 ]
+            },
+            {
+                "type": "category",
+                "label": "8",
+                "items": [
+                    {
+                        "type": "category",
+                        "label": "components",
+                        "items": []
+                    },
+                    "Lessons/8/1.pgn",
+                    "Lessons/8/3.pgn",
+                    "Lessons/8/4.pgn",
+                    "Lessons/8/5.pgn",
+                    "Lessons/8/6.pgn"
+                ]
             }
         ]
     },
