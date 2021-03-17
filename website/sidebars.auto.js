@@ -152,10 +152,30 @@ module.exports = {
                         "items": []
                     },
                     "Lessons/8/1.pgn",
+                    "Lessons/8/2.pgn",
                     "Lessons/8/3.pgn",
                     "Lessons/8/4.pgn",
                     "Lessons/8/5.pgn",
                     "Lessons/8/6.pgn"
+                ]
+            },
+            {
+                "type": "category",
+                "label": "9",
+                "items": [
+                    {
+                        "type": "category",
+                        "label": "components",
+                        "items": []
+                    },
+                    "Lessons/9/1.pgn",
+                    "Lessons/9/2.pgn",
+                    "Lessons/9/3.pgn",
+                    "Lessons/9/4.pgn",
+                    "Lessons/9/5.pgn",
+                    "Lessons/9/6.pgn",
+                    "Lessons/9/7.pgn",
+                    "Lessons/9/8.pgn"
                 ]
             }
         ]

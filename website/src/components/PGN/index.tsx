@@ -3,6 +3,19 @@ import Children from 'react-children-utilities'
 import * as uuid from 'uuid';
 import './style.css'
 
+function extractFen(pgn) {
+  const STARTING_POSITION = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1'
+  const rawFen = pgn
+    .split('\n')
+    .find((element) => element.startsWith('[FEN')) // [FEN "8/3KN3/8/2p1k3/7Q/3P4/8/8 w - - 0 1"]
+
+  if (rawFen) {
+    return rawFen.slice(6).slice(0, -2)
+  } else {
+    return STARTING_POSITION
+  }
+}
+
 function PGN(props) {
   const element = useRef(null)
   const gameDecription = Children.onlyText(props.children)
@@ -10,6 +23,7 @@ function PGN(props) {
   const [game, setGame] = useState(null)
   const fenAsWhite = () => game.base.chess.fen().replace(" b ", " w ")
   const fenAsBlack = () => game.base.chess.fen().replace(" w ", " b ")
+  const fen = extractFen(gameDecription)
 
   const fenURL = (fen) => {
     return "https://lichess.org/editor/" + fen
@@ -30,7 +44,7 @@ function PGN(props) {
         pgn: gameDecription,
         timerTime: '1',
         locale: 'pl',
-        startPlay: 1,
+        position: fen,
         showResult: true,
         boardSize: '340',
         showFen: true,
