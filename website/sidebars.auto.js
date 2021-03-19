@@ -3,6 +3,23 @@ module.exports = {
   docs: [
     {
         "type": "category",
+        "label": "Analizy",
+        "items": [
+            "Analizy/Analiza_1",
+            "Analizy/Analiza_10",
+            "Analizy/Analiza_11",
+            "Analizy/Analiza_2",
+            "Analizy/Analiza_3",
+            "Analizy/Analiza_4",
+            "Analizy/Analiza_5",
+            "Analizy/Analiza_6",
+            "Analizy/Analiza_7",
+            "Analizy/Analiza_8",
+            "Analizy/Analiza_9"
+        ]
+    },
+    {
+        "type": "category",
         "label": "Lessons",
         "items": [
             {
