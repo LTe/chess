@@ -8,6 +8,7 @@ module.exports = {
             "Analizy/Analiza_1",
             "Analizy/Analiza_10",
             "Analizy/Analiza_11",
+            "Analizy/Analiza_12",
             "Analizy/Analiza_2",
             "Analizy/Analiza_3",
             "Analizy/Analiza_4",
@@ -16,6 +17,23 @@ module.exports = {
             "Analizy/Analiza_7",
             "Analizy/Analiza_8",
             "Analizy/Analiza_9"
+        ]
+    },
+    {
+        "type": "category",
+        "label": "Debiuty",
+        "items": [
+            {
+                "type": "category",
+                "label": "Obrona Francuska",
+                "items": [
+                    "Debiuty/Obrona Francuska/Fort Knox 5c4.pgn",
+                    "Debiuty/Obrona Francuska/Fort Knox 6Seg5.pgn",
+                    "Debiuty/Obrona Francuska/KIA.pgn",
+                    "Debiuty/Obrona Francuska/WariantWymiennyCzarne.pgn",
+                    "Debiuty/Obrona Francuska/WariantZamknietyCzarne.pgn"
+                ]
+            }
         ]
     },
     {
@@ -46,6 +64,27 @@ module.exports = {
                     "Lessons/1/13.pgn",
                     "Lessons/1/14.pgn",
                     "Lessons/1/15.pgn"
+                ]
+            },
+            {
+                "type": "category",
+                "label": "10",
+                "items": [
+                    "Lessons/10/1.pgn",
+                    "Lessons/10/2.pgn",
+                    "Lessons/10/3.pgn",
+                    "Lessons/10/4.pgn",
+                    "Lessons/10/5.pgn",
+                    "Lessons/10/Fort Knox 5c4.pgn",
+                    "Lessons/10/Fort Knox 6Seg5.pgn",
+                    "Lessons/10/KIA.pgn",
+                    "Lessons/10/WariantWymiennyCzarne.pgn",
+                    "Lessons/10/WariantZamknietyCzarne.pgn",
+                    {
+                        "type": "category",
+                        "label": "components",
+                        "items": []
+                    }
                 ]
             },
             {

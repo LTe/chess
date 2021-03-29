@@ -1,0 +1,1 @@
+../../Lessons/10/Fort Knox 5c4.pgn.md

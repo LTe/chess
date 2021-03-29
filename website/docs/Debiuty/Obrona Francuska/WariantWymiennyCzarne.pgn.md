@@ -1,0 +1,1 @@
+../../Lessons/10/WariantWymiennyCzarne.pgn.md

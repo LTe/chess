@@ -1,0 +1,1 @@
+../../Lessons/10/WariantZamknietyCzarne.pgn.md
