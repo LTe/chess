@@ -1,7 +1,6 @@
 import React, {useLayoutEffect, useRef, useState} from 'react'
 import Children from 'react-children-utilities'
 import * as uuid from 'uuid'
-import { pgnView } from '@mliebelt/pgn-viewer'
 import {CopyToClipboard} from 'react-copy-to-clipboard'
 import './style.css'
 
@@ -37,6 +36,7 @@ function PGN(props) {
       return
     }
 
+    const pgnView = require('@mliebelt/pgn-viewer')
     const game = pgnView(
       id,
       {
