@@ -11,7 +11,7 @@ function extractFen(pgn) {
     .find((element) => element.startsWith('[FEN')) // [FEN "8/3KN3/8/2p1k3/7Q/3P4/8/8 w - - 0 1"]
 
   if (rawFen) {
-    return rawFen.slice(6).slice(0, -2)
+    return rawFen.slice(6).slice(0, -3)
   } else {
     return STARTING_POSITION
   }

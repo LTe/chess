@@ -248,6 +248,22 @@ module.exports = {
                     "Lessons/9/7.pgn",
                     "Lessons/9/8.pgn"
                 ]
+            },
+            {
+                "type": "category",
+                "label": "Capablanka",
+                "items": [
+                    "Lessons/Capablanka/Capablanka:_Canal_—_Capablanka__Obrona_Hetmansko_—_Indyjska_.pgn",
+                    "Lessons/Capablanka/Capablanka:_Capablanca_—_Blank.pgn",
+                    "Lessons/Capablanka/Capablanka:_Capablanca_—_Schroeder.pgn",
+                    "Lessons/Capablanka/Capablanka:_Capablanka_—_Villegas__Gambit_Hetmanski_z_przestawieniem_posuniec_.pgn",
+                    "Lessons/Capablanka/Capablanka:_Menchik_—_Capablanka__Debiut_pionka_hetmanskiego_.pgn",
+                    {
+                        "type": "category",
+                        "label": "components",
+                        "items": []
+                    }
+                ]
             }
         ]
     },

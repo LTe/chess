@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.result {
+  display: flex;
+  flex-grow: 0.5;
+  flex-direction: column;
+}
+
+.resultLink {
+  color: black;
+  font-weight: bold;
+  margin-top: 5px;
+}

@@ -1,0 +1,27 @@
+
+import React from 'react'
+import PGN from '../../../../src/components/PGN'
+
+function Game() {
+  return (
+    <PGN>
+        {`[Event "Capablanka: Capablanca — Schroeder"]
+[Site "https://lichess.org/study/nEi1SvSC/Wv5yNJUV"]
+[Result "*"]
+[UTCDate "2021.03.30"]
+[UTCTime "18:15:15"]
+[Variant "Standard"]
+[ECO "D63"]
+[Opening "Queen's Gambit Declined: Orthodox Defense, Henneberger Variation"]
+[Annotator "https://lichess.org/@/LTe_e"]
+
+1. d4 d5 (1... Nf6 { Indyjska obrona }) 2. Nf3 e6 (2... c5 { Polecany przez Tarrascha }) 3. c4 Nf6 4. Nc3 { Gambit Hetmańskie nie został przyjety } 4... Nbd7 (4... Be7 { Bardziej elastyczne/ }) 5. Bg5 Be7 6. e3 { [%cal Ge2e3,Rf1d3] } 6... O-O { [%cal Gh7h6,Gg5h4] } 7. Rc1 a6 8. Qc2 { [%csl Gd3][%cal Gc2h7,Gf1d3,Rd3h7] } (8. h3 $140 dxc4 9. Bxc4 b5 { [%cal Gc8b7,Gc7c5] }) 8... Re8 (8... h6 { [%cal Gg5h4,Gd5c4,Gb7b5,Gc7c5] }) 9. Bd3 dxc4 10. Bxc4 b5 { Zdobycie tempa } *
+
+
+
+`}
+    </PGN>
+  )
+}
+
+export default Game;

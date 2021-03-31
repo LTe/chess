@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
-    "build-lessons": "bin/build_lessons.js",
+    "build-lessons": "bin/generate.js",
     "start": "docusaurus start",
-    "build": "node bin/generate_lessons.js && docusaurus build",
+    "build": "node bin/generate.js && docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "serve": "docusaurus serve",
@@ -16,6 +16,7 @@
     "@docusaurus/core": "^2.0.0-alpha.71",
     "@docusaurus/preset-classic": "^2.0.0-alpha.71",
     "@mdx-js/react": "^1.6.21",
+    "@mliebelt/pgn-parser": "^1.2.3",
     "@mliebelt/pgn-viewer": "../pgn-viewer",
     "clsx": "^1.1.1",
     "docusaurus-plugin-auto-sidebars": "^1.0.7",
@@ -25,10 +26,12 @@
     "node-recursive-directory": "^1.2.0",
     "npm": "^6.14.11",
     "react": "^17.0.1",
+    "react-chessground": "^1.5.0",
     "react-children-utilities": "^2.2.2",
     "react-copy-to-clipboard": "^5.0.3",
     "react-dom": "^16.8.4",
-    "remove": "^0.1.5"
+    "remove": "^0.1.5",
+    "underscore": "^1.12.1"
   },
   "browserslist": {
     "production": [
@@ -48,6 +51,7 @@
     "@types/react": "^17.0.0",
     "@types/react-helmet": "^6.1.0",
     "@types/react-router-dom": "^5.1.7",
+    "chess.js": "^0.11.0",
     "typescript": "^4.1.3"
   }
 }
