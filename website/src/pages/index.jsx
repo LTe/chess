@@ -17,8 +17,6 @@ function Home() {
       description="Personal chess notes">
       <header className={clsx('hero hero--primary', styles.heroBanner, 'header')}>
         <div className="container">
-          <h1 className="hero__title">{siteConfig.title}</h1>
-          <p className="hero__subtitle">{siteConfig.tagline}</p>
           <Search />
         </div>
       </header>
