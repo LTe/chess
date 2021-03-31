@@ -36,7 +36,7 @@ function PGN(props) {
       return
     }
 
-    const pgnView = require('@mliebelt/pgn-viewer')
+    const { pgnView } = require('@mliebelt/pgn-viewer')
     const game = pgnView(
       id,
       {
