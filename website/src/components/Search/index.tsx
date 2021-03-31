@@ -81,12 +81,20 @@ function Search(props) {
     }
   }
 
+  const handleBack = (event) => {
+    chess.undo()
+    setFen(chess.fen())
+  }
+
   return (
     <div className="wrapper">
-      <Chessground fen={fen} orientation={orientation} onMove={handleOnMove}/>
+      <div className="chessBoard">
+        <Chessground fen={fen} orientation={orientation} onMove={handleOnMove}/>
+      </div>
       <div className="result">
         <input className="fenInput" value={fen} onChange={handleFenChange} />
         <button onClick={handleSwitch}>Switch</button>
+        <button onClick={handleBack}>Back</button>
         <div><Results results={results} /></div>
       </div>
     </div>

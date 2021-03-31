@@ -1,11 +1,10 @@
 .wrapper {
   display: flex;
-  justify-content: space-evenly;
 }
 
 .result {
+  width: 50%;
   display: flex;
-  flex-grow: 0.5;
   flex-direction: column;
 }
 
@@ -13,4 +12,8 @@
   color: black;
   font-weight: bold;
   margin-top: 5px;
+}
+
+.chessBoard {
+  max-width: 50%;
 }
