@@ -89,6 +89,21 @@ module.exports = {
             },
             {
                 "type": "category",
+                "label": "11",
+                "items": [
+                    {
+                        "type": "category",
+                        "label": "components",
+                        "items": []
+                    },
+                    "Lessons/11/4.pgn",
+                    "Lessons/11/5.pgn",
+                    "Lessons/11/6.pgn",
+                    "Lessons/11/7.pgn"
+                ]
+            },
+            {
+                "type": "category",
                 "label": "2",
                 "items": [
                     {

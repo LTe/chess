@@ -1,6 +1,8 @@
 import React, {useLayoutEffect, useRef, useState} from 'react'
 import Children from 'react-children-utilities'
-import * as uuid from 'uuid';
+import * as uuid from 'uuid'
+import { pgnView } from '@mliebelt/pgn-viewer'
+import {CopyToClipboard} from 'react-copy-to-clipboard'
 import './style.css'
 
 function extractFen(pgn) {
@@ -30,13 +32,10 @@ function PGN(props) {
   }
 
   useLayoutEffect(() => {
-    if (id === '') setId('board-' + uuid.v4())
-  })
-
-  useLayoutEffect(() => {
-    if (id === '') return
-
-    const { pgnView } = require('@mliebelt/pgn-viewer')
+    if (id === '') {
+      setId('board-' + uuid.v4())
+      return
+    }
 
     const game = pgnView(
       id,
@@ -62,8 +61,14 @@ function PGN(props) {
       <a className="lichessLink" onClick={() => open(fenURL(fenAsWhite()))} target="_blank"><strong>Lichess (as white)</strong></a>
       <div id={id} ref={element}></div>
       <hr/>
+
       <div><strong>PGN</strong></div>
-      <textarea className="pgn" readOnly cols={2} rows={10} value={gameDecription} />
+      <div>
+        <CopyToClipboard text={gameDecription}>
+          <button>Copy</button>
+        </CopyToClipboard>
+      </div>
+      <textarea cols={100} rows={10} defaultValue={gameDecription} />
     </div>
   )
 }

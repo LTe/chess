@@ -1,0 +1,16 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "2021.03.31"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[Annotator "chess"]
+[SetUp "1"]
+[FEN "r2qk2r/2nbpp2/p2p1bp1/2pP4/P1p5/2N5/1PP1BPPP/R1BQ1RK1 w kq - 0 1"]
+[PlyCount "5"]
+[SourceVersionDate "2021.03.31"]
+
+{[#] Jak powinny grac biale?} 1. Bf4 O-O 2. Bh6 Bg7 3. Qd2 $14 {[%cal Gc3e4,
+Ge4g5]} *
+
