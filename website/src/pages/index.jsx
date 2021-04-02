@@ -12,14 +12,10 @@ function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
-    <Layout
-      title={siteConfig.title}
-      description="Personal chess notes">
-      <header className={clsx('hero hero--primary', styles.heroBanner, 'header')}>
-        <div className="container">
-          <Search />
-        </div>
-      </header>
+    <Layout title={siteConfig.title} description="Personal chess notes">
+      <div className="container">
+        <Search />
+      </div>
     </Layout>
   );
 }

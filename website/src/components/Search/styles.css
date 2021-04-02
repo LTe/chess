@@ -1,19 +1,38 @@
 .wrapper {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttons {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.buttons button {
+  margin: 0.5rem;
 }
 
 .result {
-  width: 50%;
+  margin: auto;
   display: flex;
+  width: 50%;
   flex-direction: column;
+}
+
+.results {
+  margin-top: 1rem;
 }
 
 .resultLink {
   color: black;
   font-weight: bold;
   margin-top: 5px;
+  font-size: 0.9rem;
 }
 
 .chessBoard {
-  max-width: 50%;
+  margin-bottom: 2rem;
+  margin-right: 20px;
 }

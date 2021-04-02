@@ -22,7 +22,7 @@ const extractFen = (pgn) => {
 }
 
 const files = getFiles('../lessons', true); // add true
-const database = {}
+const database = []
 
 const extractFenFromMove = (move, chessInstance, file_path) => {
 	const notation = move['notation']
@@ -47,7 +47,7 @@ const extractFenFromMove = (move, chessInstance, file_path) => {
 			console.debug('Invalid move')
 		}
 
-		database[file_path].push(chessInstance.fen())
+		database.push({ fen: chessInstance.fen(), move: moveNotation, file: file_path })
 	}
 }
 
@@ -66,7 +66,6 @@ const readFiles = () => {
 
 				chess.load(fen)
 
-				database[`${dirname}/${filename}`] = []
 				moves.forEach((move) => extractFenFromMove(move, chess, `${dirname}/${filename}`))
 			}
 		})
@@ -74,8 +73,12 @@ const readFiles = () => {
 }
 
 const generateDatabase = () => {
-	readFiles().then((result) => {
-		fs.writeFile(`src/components/Search/database.json`, JSON.stringify(database), {flag: 'w'}, () => {})
+	return new Promise((resolve, reject) => {
+		readFiles().then((result) => {
+			fs.writeFile(`src/components/Search/database.json`, JSON.stringify(database), {flag: 'w'}, () => {
+				resolve()
+			})
+		})
 	})
 }
 

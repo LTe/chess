@@ -1,5 +1,6 @@
 {
   "extends": "@tsconfig/docusaurus/tsconfig.json",
   "include": ["src/"],
-  "resolveJsonModule": true
+  "resolveJsonModule": true,
+  "lib": "ES2019"
 }
