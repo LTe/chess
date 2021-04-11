@@ -1,0 +1,28 @@
+﻿[Event "Rated Correspondence game"]
+[Site "https://lichess.org/Qk1B8la1"]
+[Date "2021.04.02"]
+[Round "?"]
+[White "execut0r"]
+[Black "LTe_e"]
+[Result "1-0"]
+[ECO "C01"]
+[WhiteElo "1413"]
+[BlackElo "1500"]
+[Annotator "chess"]
+[PlyCount "49"]
+[EventDate "2021.??.??"]
+[SourceVersionDate "2020.07.27"]
+
+{[%evp 0,49,19,31,47,17,30,-27,-9,-35,-27,-77,16,-25,30,2,3,-44,-34,-53,-27,2,
+-7,-53,23,2,4,-2,312,302,282,264,310,317,1086,1150,1126,754,1162,1184,1195,669,
+688,689,964,961,1359,1604,1398,1721,1752,1822]} 1. e4 e6 2. d4 d5 3. Be3 $2
+dxe4 4. Nd2 Nf6 5. f3 Be7 $6 {[#]} (5... Nd5 6. Qe2 Nxe3 7. Qxe3 exf3) 6. fxe4
+b6 $6 (6... c5 $1 {[%csl Rd4][%cal Gd8b6,Ge8g8,Gh8d8,Gb8c6,Ga8c8] zawsze
+szukamy tego ruchu we francuskiem}) 7. e5 Nd5 8. Qf3 $2 Bb7 9. Bb5+ {[%cal
+Gd5c3,Gd5e3,Rb7f3]} Bc6 $2 (9... c6 10. Bd3 c5 {zawsze to gramy}) 10. Bxc6+
+Nxc6 {[%csl Rc6,Rc7][%cal Rc7c5] nie mamy c5} 11. a3 $2 Nxe3 $4 (11... O-O {
+[%csl Ra8,Rc6][%cal Gc7c5]}) 12. Qxc6+ Kf8 13. Qe4 Qd5 $4 (13... Nd5 $2 14. c4)
+(13... Bg5) (13... Nf5 {[%csl Rd4][%cal Gg2g4]}) 14. Qxe3 Qxg2 15. Qf3 Bh4+ 16.
+Kd1 Qg6 17. Qxa8+ Ke7 18. Qe4 f5 19. Qxh4+ Kd7 20. Nc4 Qg2 21. Qg3 Qf1+ 22. Kd2
+Qxa1 23. Qxg7+ Kc6 24. Qxh8 Kb7 25. Qxh7 {Normal} 1-0
+

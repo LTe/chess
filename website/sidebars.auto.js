@@ -104,6 +104,24 @@ module.exports = {
             },
             {
                 "type": "category",
+                "label": "12",
+                "items": [
+                    {
+                        "type": "category",
+                        "label": "components",
+                        "items": []
+                    },
+                    "Lessons/12/1.pgn",
+                    "Lessons/12/2.pgn",
+                    "Lessons/12/3.pgn",
+                    "Lessons/12/4.pgn",
+                    "Lessons/12/5.pgn",
+                    "Lessons/12/6.pgn",
+                    "Lessons/12/7.pgn"
+                ]
+            },
+            {
+                "type": "category",
                 "label": "2",
                 "items": [
                     {
@@ -255,6 +273,7 @@ module.exports = {
                 "items": [
                     "Lessons/Capablanka/Capablanka:_Canal_—_Capablanka__Obrona_Hetmansko_—_Indyjska_.pgn",
                     "Lessons/Capablanka/Capablanka:_Capablanca_—_Blank.pgn",
+                    "Lessons/Capablanka/Capablanka:_Capablanca_—_Eliskases_—_Partia_Wloska.pgn",
                     "Lessons/Capablanka/Capablanka:_Capablanca_—_Schroeder.pgn",
                     "Lessons/Capablanka/Capablanka:_Capablanka_—_Mattison_—_Obrona_Nimzowitscha.pgn",
                     "Lessons/Capablanka/Capablanka:_Capablanka_—_Villegas__Gambit_Hetmanski_z_przestawieniem_posuniec_.pgn",

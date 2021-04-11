@@ -1,0 +1,47 @@
+
+import React from 'react'
+import PGN from '../../../../src/components/PGN'
+
+function Game() {
+  return (
+    <PGN>
+        {`﻿[Event "Rated Correspondence game"]
+[Site "https://lichess.org/DA5cZCSN"]
+[Date "2021.04.11"]
+[Round "?"]
+[White "classic_tryhard2"]
+[Black "LTe_e"]
+[Result "*"]
+[ECO "D02"]
+[WhiteElo "1543"]
+[BlackElo "1500"]
+[Annotator "lichess.org"]
+[PlyCount "70"]
+[EventDate "2021.??.??"]
+[SourceVersionDate "2020.07.27"]
+
+
+{[%evp 0,70,25,26,36,30,19,14,27,20,88,32,24,31,31,15,13,-91,-94,-119,-116,
+-169,-138,-138,-85,-157,-112,-150,677,-187,600,634,618,471,474,-332,-1000,
+-1004,-655,-508,-688,-688,-677,-677,-750,-656,-839,-865,-865,-883,-595,-865,
+-1221,-1158,-860,-1048,-1048,-1390,-1428,-1555,-1712,-1748,-1828,-1632,-1462,
+-2395,-29994,-29995,-29996,-29997,-29998,-29999,-30000]} 1. d4 e6 {A40 Horwitz
+Defense} 2. Nf3 d5 3. Bf4 Nf6 4. e3 c5 5. c3 Nc6 6. Nbd2 Be7 7. Qc2 $2 {
+[%cal Ga8c8,Rc8c2] prosto pod Wc8} (7. Bd3) 7... O-O {[%csl Re1]} 8. e4 $2 {
+biale nie powinny otwierac centrum majac krola na e1} dxe4 9. Ne5 (9. Nxe4)
+9... cxd4 10. Nxc6 bxc6 11. Nxe4 c5 12. Be5 {[%csl Rf6] [#]} Qa5 $2 {[%csl Rf6]
+beda bicia na f6. Zanim zaczniesz wykonywac swoj plan zawsze sprawdz grozby
+przeciwnika} (12... Ng4 {[%csl Re5][%cal Gd8a5]} 13. Bg3 Qa5 {[%csl Re4][%cal
+Gd4c3,Gf7f5,Ge7f6]}) 13. Bxf6 Rd8 $4 (13... gxf6) 14. Ng5 $4 (14. Bxe7 $18)
+14... g6 $4 (14... Bxf6 15. Qxh7+ Kf8 $19) 15. Bxe7 Rd7 16. Qe4 dxc3 17. Qxa8
+cxb2+ 18. Ke2 Qd2+ 19. Kf3 Qc3+ 20. Kg4 h5+ 21. Kh4 Rd4+ 22. Ne4 bxa1=Q 23. g4
+Rxe4 24. Qxe4 Qab2 25. f3 Qf2+ 26. Kg5 hxg4 27. Bf6 Qcxf3 28. Qxf3 Qxf3 29. Be2
+Qe3+ 30. Kh4 Qxe2 31. Bd4 e5 32. Bxc5 f6 33. a3 Qd3 34. h3 g5+ 35. Kh5 Qh7# {
+Unterminated} *
+
+`}
+    </PGN>
+  )
+}
+
+export default Game;
