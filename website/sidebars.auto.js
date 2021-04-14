@@ -33,6 +33,23 @@ module.exports = {
                     "Debiuty/Obrona Francuska/WariantWymiennyCzarne.pgn",
                     "Debiuty/Obrona Francuska/WariantZamknietyCzarne.pgn"
                 ]
+            },
+            {
+                "type": "category",
+                "label": "Obrona Skoczkowa",
+                "items": [
+                    "Debiuty/Obrona Skoczkowa/5..Sd5.pgn",
+                    "Debiuty/Obrona Skoczkowa/Obr2Skoczkow1.pgn",
+                    "Debiuty/Obrona Skoczkowa/Obr2Skoczkow2.pgn",
+                    "Debiuty/Obrona Skoczkowa/Obr2Skoczkow3.pgn"
+                ]
+            },
+            {
+                "type": "category",
+                "label": "Obrona Węgierska",
+                "items": [
+                    "Debiuty/Obrona Węgierska/Obronawegierskaitd.pgn"
+                ]
             }
         ]
     },
@@ -118,6 +135,24 @@ module.exports = {
                     "Lessons/12/5.pgn",
                     "Lessons/12/6.pgn",
                     "Lessons/12/7.pgn"
+                ]
+            },
+            {
+                "type": "category",
+                "label": "13",
+                "items": [
+                    "Lessons/13/1.pgn",
+                    "Lessons/13/5..Sd5.pgn",
+                    "Lessons/13/Obr2Skoczkow1.pgn",
+                    "Lessons/13/Obr2Skoczkow2.pgn",
+                    "Lessons/13/Obr2Skoczkow3.pgn",
+                    "Lessons/13/Obronawegierskaitd.pgn",
+                    "Lessons/13/WloskaGd2Podstawy.pgn",
+                    {
+                        "type": "category",
+                        "label": "components",
+                        "items": []
+                    }
                 ]
             },
             {

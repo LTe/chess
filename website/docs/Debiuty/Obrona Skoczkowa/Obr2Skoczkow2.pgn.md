@@ -1,0 +1,1 @@
+../../Lessons/13/Obr2Skoczkow2.pgn.md
