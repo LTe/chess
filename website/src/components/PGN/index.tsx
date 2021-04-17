@@ -45,7 +45,7 @@ function PGN(props) {
         locale: 'pl',
         position: fen,
         showResult: true,
-        boardSize: '340',
+        boardSize: '640',
         showFen: true,
         layout: 'left',
         pieceStyle: 'chesscom'
