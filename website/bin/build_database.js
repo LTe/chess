@@ -62,7 +62,7 @@ const readFiles = () => {
 				log(`Analyze: ${dirname}/${filename}`)
 				const parsedPGN = data.toString('utf-8').replace(/\r\n/g, '\n').split(/\n\n/)
 				const fen = extractFen(parsedPGN[0])
-				const moves = parser.parse(parsedPGN[1])[0]
+				const moves = parser.parse(parsedPGN[1])
 
 				chess.load(fen)
 
