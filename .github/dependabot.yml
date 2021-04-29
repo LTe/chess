@@ -1,0 +1,31 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/website"
+  schedule:
+    interval: daily
+    time: "04:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: npm
+    versions:
+    - 7.10.0
+    - 7.11.0
+  - dependency-name: "@docusaurus/preset-classic"
+    versions:
+    - 2.0.0-alpha.72
+    - 2.0.0-alpha.73
+  - dependency-name: "@docusaurus/module-type-aliases"
+    versions:
+    - 2.0.0-alpha.72
+    - 2.0.0-alpha.73
+  - dependency-name: "@docusaurus/core"
+    versions:
+    - 2.0.0-alpha.72
+    - 2.0.0-alpha.73
+  - dependency-name: react
+    versions:
+    - 17.0.2
+  - dependency-name: typescript
+    versions:
+    - 4.2.4
