@@ -1,0 +1,36 @@
+﻿[Event "Rated Classical game"]
+[Site "https://lichess.org/6a7hcbk0"]
+[Date "2021.04.22"]
+[Round "?"]
+[White "LTe_e"]
+[Black "Omraam"]
+[Result "1-0"]
+[ECO "C53"]
+[WhiteElo "1309"]
+[BlackElo "1550"]
+[Annotator "chess"]
+[PlyCount "87"]
+[EventDate "2021.??.??"]
+[SourceVersionDate "2020.07.27"]
+[TimeControl "1800"]
+
+{[%evp 0,87,19,38,25,16,16,8,8,55,95,92,129,102,116,109,113,110,150,132,131,
+127,120,102,107,91,107,89,98,100,97,-24,-31,-193,-173,-167,-177,-172,-161,-174,
+-164,-147,-162,-177,-189,-236,-172,-172,-160,-153,-136,-169,0,0,7,30,140,127,
+335,373,364,370,366,357,380,414,532,540,512,550,550,550,553,558,773,554,586,
+598,940,923,1531,1777,28149,1639,28893,29984,29997,29998,29999,-30000]} 1. e4
+e5 2. Nf3 Nc6 3. Bc4 Bc5 4. c3 h6 $2 5. d4 exd4 6. cxd4 Bb4+ 7. Bd2 Bxd2+ 8.
+Nbxd2 Nge7 9. d5 $1 Na5 10. Bd3 b6 11. b4 Nb7 12. Qb3 O-O 13. O-O d6 {
+problemem czarnych jest odstaly pion c7} 14. Rfe1 $6 (14. Rac1 $1 {[%csl Rc7]
+[%cal Gf3d4,Gd4b5,Gd4c6,Gc1c6,Gf1c1] [#] zeby uniemozliwic ruch piona c}) 14...
+a5 (14... c5 $1) 15. Rac1 $2 (15. a3 $1 {[%csl Rc5,Yc7][%cal Ga1c1,Gc1c2,Ge1c1]
+trzeba kontrolowac pole c5, bo inaczej skoczek wyjdzie z tempem}) 15... axb4 {
+czarne maja pole c5 dla skoczka i pion c7 nie bedzie juz slaby} 16. e5 $2 Nc5
+$1 17. Qb1 Nxd5 18. exd6 Qxd6 19. Bh7+ Kh8 20. Ne4 Nxe4 21. Bxe4 Be6 22. Qb2
+Nc3 $2 (22... c5 {[%cal Ga8c8,Gf8c8,Ga8a3]}) 23. Bxa8 Rxa8 24. Ra1 Bxa2 25. h4
+Qc5 $2 (25... c5 {[%cal Gb6b5,Gc5c4] piony wolne trzeba pchac}) 26. Ne5 Kg8 27.
+Nd3 Qc4 28. Nxb4 Rd8 29. Nxa2 Nxa2 30. Rxa2 Qxh4 31. Qb1 Qf4 32. Rae2 g5 33.
+Re8+ Rxe8 34. Rxe8+ Kg7 35. Qb2+ Kg6 36. Qc2+ Kh5 37. Qd1+ Kg6 38. Qd3+ Kh5 39.
+g3 Qc1+ 40. Kh2 Qc6 41. g4+ Kxg4 42. Re4+ Kh5 43. Rh4+ gxh4 44. Qf5# {Normal}
+1-0
+
