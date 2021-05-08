@@ -1940,25 +1940,25 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.22.tgz#219dfd89ae5b97a8801f015323ffa4b62f45718b"
   integrity sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==
 
-"@mliebelt/pgn-parser@1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@mliebelt/pgn-parser/-/pgn-parser-1.2.5.tgz#72b06f57cdab238d94f4f2f5f4b1865c71e966f0"
-  integrity sha512-gTVN+SvOSBdNGje3DqxMVlTFihjK/4xdwM4B6I7gL+e3qPUWeDGPZY6xyotwLnPH7Ww7Em358bLKPNnEaVPp9A==
+"@mliebelt/pgn-parser@1.2.8":
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/@mliebelt/pgn-parser/-/pgn-parser-1.2.8.tgz#01b2cd83f41f76225d3f615f5e5a759a0d247b1a"
+  integrity sha512-o7UBEFk2wef5yWM+HMNmJrwmA2c92jPhnY6SX6QddC0simYahqKA9sliLtIFN6KwD0pSV4vvxuYuoEBPDPmNrg==
 
-"@mliebelt/pgn-reader@^1.2.1":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@mliebelt/pgn-reader/-/pgn-reader-1.2.4.tgz#07656424a6c28483f75f6076ece70025b97ae4d2"
-  integrity sha512-z/jDK6/bDJltygSg1lCqknPziH/sXtPFuSjDuxUMHuARNR5S92hKwlIDPZLIDPCShl0eak3azk3XTrmcdkHkug==
+"@mliebelt/pgn-reader@^1.2.6":
+  version "1.2.6"
+  resolved "https://registry.yarnpkg.com/@mliebelt/pgn-reader/-/pgn-reader-1.2.6.tgz#73d3931917f27cf121247859eb0d34381b02d0fa"
+  integrity sha512-5GUOeZyQO1Sf/yHsgb6zehBiJ0VF0X0UIxGGYwVXdgQMZucDRgX8EpmQmMcFy7GBXw8JfOI2c7veo6WbsGhD9g==
   dependencies:
-    "@mliebelt/pgn-parser" "1.2.5"
+    "@mliebelt/pgn-parser" "1.2.8"
     chess.js "^0.10.3"
 
-"@mliebelt/pgn-viewer@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@mliebelt/pgn-viewer/-/pgn-viewer-1.5.1.tgz#45c0211c6ec6c867599f8a0764a5355ce9b49ccf"
-  integrity sha512-W/xPhIEvR9oMg3mugF2qTavMXZI7eWnOYV+vPQDg/3fWJUHbD3Gt986/BaJlabtlz4Hzzr9pSLKUQ6hvGB+fxw==
+"@mliebelt/pgn-viewer@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@mliebelt/pgn-viewer/-/pgn-viewer-1.5.2.tgz#61e903f7f1eafdce01c99ed2cbc8b77c11cd0291"
+  integrity sha512-k+nm5iAn9GH3SrB6RKwJlKhr01EBuLK0sSni1rh8DUUX+QBUvtCC7ZX5EgkU2utNyiock+2QzISSwzBty9GzxQ==
   dependencies:
-    "@mliebelt/pgn-reader" "^1.2.1"
+    "@mliebelt/pgn-reader" "^1.2.6"
     chessground "^7.11.1"
     mousetrap "^1.6.5"
     roddeh-i18n "^1.2.0"
