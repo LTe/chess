@@ -157,6 +157,40 @@ module.exports = {
             },
             {
                 "type": "category",
+                "label": "14",
+                "items": [
+                    {
+                        "type": "category",
+                        "label": "components",
+                        "items": []
+                    },
+                    "Lessons/14/1.pgn",
+                    "Lessons/14/2.pgn",
+                    "Lessons/14/3.pgn",
+                    "Lessons/14/4.pgn",
+                    "Lessons/14/5.pgn",
+                    "Lessons/14/6.pgn"
+                ]
+            },
+            {
+                "type": "category",
+                "label": "15",
+                "items": [
+                    "Lessons/15/1.pgn",
+                    "Lessons/15/2.pgn",
+                    "Lessons/15/3.pgn",
+                    "Lessons/15/4.pgn",
+                    "Lessons/15/5.pgn",
+                    "Lessons/15/RosyjskaBiale.pgn",
+                    {
+                        "type": "category",
+                        "label": "components",
+                        "items": []
+                    }
+                ]
+            },
+            {
+                "type": "category",
                 "label": "2",
                 "items": [
                     {
