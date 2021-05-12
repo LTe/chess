@@ -1,0 +1,19 @@
+﻿[Event "?"]
+[Site "?"]
+[Date "2021.05.12"]
+[Round "?"]
+[White "?"]
+[Black "?"]
+[Result "*"]
+[Annotator "chess"]
+[SetUp "1"]
+[FEN "r4rk1/p1p2pp1/bp1p1n1p/n3pN2/q1PPP3/P1PBB3/4QPPP/R3K2R w KQ - 0 1"]
+[PlyCount "15"]
+[SourceVersionDate "2021.05.12"]
+
+{[#] Jak biale powinny grac?} 1. Bxh6 $1 gxh6 2. Qe3 {[%csl Rg7][%cal Ge3h6,
+Ge3g3,Rh6g7]} Ne8 (2... Ng4 3. Qg3 $18 {[%cal Gg3g4]}) 3. Qxh6 Qd7 (3... Nc6 4.
+h4 $1 {[%cal Gh1h3,Gh3g3] i Wh3. Trzeba zapamietac ten sposob wyprowadzania
+wiezy}) 4. Qg5+ Kh7 5. Qh4+ Kg8 (5... Kg6 6. Qh6#) 6. Qg3+ Kh7 7. Qh3+ {
+[%cal Rh3d7]} Kg8 8. Nh6+ $18 *
+
