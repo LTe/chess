@@ -16,7 +16,7 @@
     "@docusaurus/core": "^2.0.0-alpha.71",
     "@docusaurus/preset-classic": "^2.0.0-alpha.71",
     "@mdx-js/react": "^1.6.21",
-    "@mliebelt/pgn-viewer": "^1.5.1",
+    "@mliebelt/pgn-viewer": "^1.5.4",
     "boostrap": "^2.0.0",
     "bootstrap": "^4.6.0",
     "clsx": "^1.1.1",
