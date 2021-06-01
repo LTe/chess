@@ -1999,10 +1999,10 @@
     "@nodelib/fs.scandir" "2.1.4"
     fastq "^1.6.0"
 
-"@npmcli/arborist@^2.3.0", "@npmcli/arborist@^2.5.0", "@npmcli/arborist@^2.6.0":
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/@npmcli/arborist/-/arborist-2.6.0.tgz#8006d1a60435199db6ee72d4c0772869bb75557a"
-  integrity sha512-6njRVuPMgGRvQUmsXwGdp1ItZtJuSdt5ouoQe4AeFTTZoMufKWLeXFDOlWj7qbMAzqw+guNEAZwBiwm04J7T2g==
+"@npmcli/arborist@^2.3.0", "@npmcli/arborist@^2.5.0", "@npmcli/arborist@^2.6.1":
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/@npmcli/arborist/-/arborist-2.6.1.tgz#bdbd1311cc857583ffc85f4d3f24a50683303dda"
+  integrity sha512-OOlntFIOAo7RplEQaYXlA5U5NXE+EwZtnTCsit4Wtme5+llGiea6GBytuV8dOzdPMPlNx3fQQjBUE9E8k76yjQ==
   dependencies:
     "@npmcli/installed-package-contents" "^1.0.7"
     "@npmcli/map-workspaces" "^1.0.2"
@@ -4114,10 +4114,10 @@ cacache@^13.0.1:
     ssri "^7.0.0"
     unique-filename "^1.1.1"
 
-cacache@^15.0.3, cacache@^15.0.5, cacache@^15.1.0:
-  version "15.1.0"
-  resolved "https://registry.yarnpkg.com/cacache/-/cacache-15.1.0.tgz#164c2f857ee606e4cc793c63018fefd0ea5eba7b"
-  integrity sha512-mfx0C+mCfWjD1PnwQ9yaOrwG1ou9FkKnx0SvzUHWdFt7r7GaRtzT+9M8HAvLu62zIHtnpQ/1m93nWNDCckJGXQ==
+cacache@^15.0.3, cacache@^15.0.5, cacache@^15.2.0:
+  version "15.2.0"
+  resolved "https://registry.yarnpkg.com/cacache/-/cacache-15.2.0.tgz#73af75f77c58e72d8c630a7a2858cb18ef523389"
+  integrity sha512-uKoJSHmnrqXgthDFx/IU6ED/5xd+NNGe+Bb+kLZy7Ku4P+BaiWEUflAKPZ7eAzsYGcsAGASJZsybXp+quEcHTw==
   dependencies:
     "@npmcli/move-file" "^1.0.1"
     chownr "^2.0.0"
@@ -9107,10 +9107,10 @@ libnpmdiff@^2.0.4:
     pacote "^11.3.0"
     tar "^6.1.0"
 
-libnpmexec@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/libnpmexec/-/libnpmexec-1.1.1.tgz#aa510cc74612cac3945f7e2fd2ac4c650fa7ef66"
-  integrity sha512-uw6H2dzC6F6fdq7lAxfzXPimHCJ3/g6ycFKcv2Q2QXuNZ94EDmNPpMO6f4mwiC5F6Lyy/WK0IL7AZwRhmSvUdQ==
+libnpmexec@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/libnpmexec/-/libnpmexec-1.2.0.tgz#ab0294ab63bb599b3ac6921129b7a706d4d56da2"
+  integrity sha512-LkxnH2wsMUI4thsgUK0r+EFZ5iCjKlp21J68dFY7AzD5uaaIPqO3lqVvYbyl1Umz1R4rY9t3vFa1fF3hzo6Y2Q==
   dependencies:
     "@npmcli/arborist" "^2.3.0"
     "@npmcli/ci-detect" "^1.3.0"
@@ -10156,10 +10156,10 @@ normalize-url@^4.1.0:
   resolved "https://registry.yarnpkg.com/normalize-url/-/normalize-url-4.5.0.tgz#453354087e6ca96957bd8f5baf753f5982142129"
   integrity sha512-2s47yzUxdexf1OhyRi4Em83iQk0aPvwTddtFz4hnSSw9dCEsLEGf6SwIO8ss/19S9iBb5sJaOuTvTGDeZI00BQ==
 
-npm-audit-report@^2.1.4:
-  version "2.1.4"
-  resolved "https://registry.yarnpkg.com/npm-audit-report/-/npm-audit-report-2.1.4.tgz#b14c4625131fb7bcacc4b1c83842af1f58c92c98"
-  integrity sha512-Tz7rnfskSdZ0msTzt2mENC/B+H2QI8u0jN0ck7o3zDsQYIQrek/l3MjEc+CARer+64LsVTU6ZIqNuh0X55QPhw==
+npm-audit-report@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/npm-audit-report/-/npm-audit-report-2.1.5.tgz#a5b8850abe2e8452fce976c8960dd432981737b5"
+  integrity sha512-YB8qOoEmBhUH1UJgh1xFAv7Jg1d+xoNhsDYiFQlEFThEBui0W1vIz2ZK6FVg4WZjwEdl7uBQlm1jy3MUfyHeEw==
   dependencies:
     chalk "^4.0.0"
 
@@ -10250,12 +10250,12 @@ npm-user-validate@^1.0.1:
   resolved "https://registry.yarnpkg.com/npm-user-validate/-/npm-user-validate-1.0.1.tgz#31428fc5475fe8416023f178c0ab47935ad8c561"
   integrity sha512-uQwcd/tY+h1jnEaze6cdX/LrhWhoBxfSknxentoqmIuStxUExxjWd3ULMLFPiFUrZKbOVMowH6Jq2FRWfmhcEw==
 
-npm@^7.14.0:
-  version "7.14.0"
-  resolved "https://registry.yarnpkg.com/npm/-/npm-7.14.0.tgz#b2df90a98879c181cd866ce5176f5a123730fbf5"
-  integrity sha512-GSG9/rSau8vGfkOmrmseRVYXoEjo3NPNsoM4nwvI1uWlKdzmlZ8UCw7FqCUrlQ5u0C5dRR7MG9EJUCV8LZegLA==
+npm@^7.15.1:
+  version "7.15.1"
+  resolved "https://registry.yarnpkg.com/npm/-/npm-7.15.1.tgz#19fea8999872e05a1b9b73851c91f92c6d08f9fc"
+  integrity sha512-sPk+GrqawshbG3T81r2QvvSxSQXBFWyn5NGLacf87l+/odi2ZRHkWdLrg304Lw0DrwwIIaGxUjp0FJXaMtIErQ==
   dependencies:
-    "@npmcli/arborist" "^2.6.0"
+    "@npmcli/arborist" "^2.6.1"
     "@npmcli/ci-detect" "^1.2.0"
     "@npmcli/config" "^2.2.0"
     "@npmcli/run-script" "^1.8.5"
@@ -10264,7 +10264,7 @@ npm@^7.14.0:
     ansistyles "~0.1.3"
     archy "~1.0.0"
     byte-size "^7.0.1"
-    cacache "^15.1.0"
+    cacache "^15.2.0"
     chalk "^4.1.0"
     chownr "^2.0.0"
     cli-columns "^3.1.2"
@@ -10280,7 +10280,7 @@ npm@^7.14.0:
     leven "^3.1.0"
     libnpmaccess "^4.0.2"
     libnpmdiff "^2.0.4"
-    libnpmexec "^1.1.1"
+    libnpmexec "^1.2.0"
     libnpmfund "^1.1.0"
     libnpmhook "^6.0.2"
     libnpmorg "^2.0.2"
@@ -10297,7 +10297,7 @@ npm@^7.14.0:
     ms "^2.1.2"
     node-gyp "^7.1.2"
     nopt "^5.0.0"
-    npm-audit-report "^2.1.4"
+    npm-audit-report "^2.1.5"
     npm-package-arg "^8.1.2"
     npm-pick-manifest "^6.1.1"
     npm-profile "^5.0.3"
