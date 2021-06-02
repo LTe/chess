@@ -191,6 +191,36 @@ module.exports = {
             },
             {
                 "type": "category",
+                "label": "16",
+                "items": [
+                    {
+                        "type": "category",
+                        "label": "components",
+                        "items": []
+                    },
+                    "Lessons/16/1.pgn",
+                    "Lessons/16/2.pgn",
+                    "Lessons/16/3.pgn"
+                ]
+            },
+            {
+                "type": "category",
+                "label": "17",
+                "items": [
+                    {
+                        "type": "category",
+                        "label": "components",
+                        "items": []
+                    },
+                    "Lessons/17/1.pgn",
+                    "Lessons/17/2.pgn",
+                    "Lessons/17/3.pgn",
+                    "Lessons/17/4.pgn",
+                    "Lessons/17/5.pgn"
+                ]
+            },
+            {
+                "type": "category",
                 "label": "2",
                 "items": [
                     {
