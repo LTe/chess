@@ -12243,10 +12243,10 @@ react-chessground@^1.5.0:
     chessground "^7.6.12"
     react-scripts "^3.3.0"
 
-react-children-utilities@^2.5.1:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/react-children-utilities/-/react-children-utilities-2.5.1.tgz#5984acabfec48adb5a5852a3fd053a97e19b244e"
-  integrity sha512-r/MAi13SrcsMTnQJlcWKau8yCn+i2AOaq4fz1/9zYENPsZGxgLyxcRrqMcQ4yBCdpAmh3loriU8DKYXrNa6IBQ==
+react-children-utilities@^2.5.3:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/react-children-utilities/-/react-children-utilities-2.5.3.tgz#f6c215429234607685b865f7f9f9d68d649855b9"
+  integrity sha512-2qhnQu95KS01ck1+K3lfET1m7Wf6mQsjD7qf1n7lmhCmW3MvmYuLet01Vv1THgZk4E7a963boVHALc0qTlN5gw==
 
 react-copy-to-clipboard@^5.0.3:
   version "5.0.3"

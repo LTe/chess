@@ -29,7 +29,7 @@
     "react": "^17.0.1",
     "react-bootstrap": "^1.6.0",
     "react-chessground": "^1.5.0",
-    "react-children-utilities": "^2.5.1",
+    "react-children-utilities": "^2.5.3",
     "react-copy-to-clipboard": "^5.0.3",
     "react-dom": "^17.0.2",
     "remove": "^0.1.5",
