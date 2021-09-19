@@ -8,7 +8,7 @@ module.exports = {
   favicon: 'img/favicon.ico',
   organizationName: 'LTe', // Usually your GitHub org/user name.
   projectName: 'chess', // Usually your repo name.
-  plugins: ['docusaurus-plugin-auto-sidebars'],
+  // plugins: ['docusaurus-plugin-auto-sidebars'],
   themeConfig: {
     navbar: {
       title: 'Chess',
@@ -39,8 +39,7 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.auto.js'),
-          // Please change this to your repo.
+          sidebarPath: undefined,
           editUrl:
             'https://github.com/LTe/chess/edit/master/website/',
         },
