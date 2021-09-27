@@ -26,7 +26,7 @@
     "node-recursive-directory": "^1.2.0",
     "npm": "^7.24.1",
     "react": "^17.0.1",
-    "react-bootstrap": "^1.6.3",
+    "react-bootstrap": "^1.6.4",
     "react-chessground": "^1.5.0",
     "react-children-utilities": "^2.6.2",
     "react-copy-to-clipboard": "^5.0.4",
