@@ -24,7 +24,7 @@
     "lodash": "^4.17.20",
     "lodash-uuid": "^0.0.3",
     "node-recursive-directory": "^1.2.0",
-    "npm": "^7.24.1",
+    "npm": "^7.24.2",
     "react": "^17.0.1",
     "react-bootstrap": "^1.6.4",
     "react-chessground": "^1.5.0",
