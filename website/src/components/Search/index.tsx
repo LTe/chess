@@ -101,9 +101,7 @@ function Search(props) {
               onChange={handleFenChange}
               aria-describedby="basic-addon2"
             />
-            <InputGroup.Append>
-              <InputGroup.Text id="basic-addon2">FEN</InputGroup.Text>
-            </InputGroup.Append>
+            <InputGroup.Text id="basic-addon2">FEN</InputGroup.Text>
           </InputGroup>
 
           <div className="buttons">
