@@ -2820,26 +2820,26 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.22.tgz#219dfd89ae5b97a8801f015323ffa4b62f45718b"
   integrity sha512-H1rQc1ZOHANWBvPcW+JpGwr+juXSxM8Q8YCkm3GhZd8REu1fHR3z99CErO1p9pkcfcxZnMdIZdIsXkOHY0NilA==
 
-"@mliebelt/pgn-parser@1.2.5":
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/@mliebelt/pgn-parser/-/pgn-parser-1.2.5.tgz#72b06f57cdab238d94f4f2f5f4b1865c71e966f0"
-  integrity sha512-gTVN+SvOSBdNGje3DqxMVlTFihjK/4xdwM4B6I7gL+e3qPUWeDGPZY6xyotwLnPH7Ww7Em358bLKPNnEaVPp9A==
+"@mliebelt/pgn-parser@^1.3.5":
+  version "1.3.6"
+  resolved "https://registry.yarnpkg.com/@mliebelt/pgn-parser/-/pgn-parser-1.3.6.tgz#c274b74e3993ab93d4a799e86b07fe7826313d70"
+  integrity sha512-aXYlUPvZnFzEO3beK5seNO4v/IsIlRcEydkp7MCM/n0NpDlm3cZQ8yGM/n6/gYUZ5h22smTSTn70Ap0gKicIpA==
 
-"@mliebelt/pgn-reader@^1.2.1":
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/@mliebelt/pgn-reader/-/pgn-reader-1.2.4.tgz#07656424a6c28483f75f6076ece70025b97ae4d2"
-  integrity sha512-z/jDK6/bDJltygSg1lCqknPziH/sXtPFuSjDuxUMHuARNR5S92hKwlIDPZLIDPCShl0eak3azk3XTrmcdkHkug==
+"@mliebelt/pgn-reader@^1.2.10":
+  version "1.2.10"
+  resolved "https://registry.yarnpkg.com/@mliebelt/pgn-reader/-/pgn-reader-1.2.10.tgz#c0dd4a4d4e30160a186a305ab945dc379c3feb92"
+  integrity sha512-La8BgbkG7OynqvWxzfDhnBoVMlkryhxn/tQBNxJIyGULecMF7D/DO/ROoNK0z7bAcEqzscgDqNZjL26SDuighw==
   dependencies:
-    "@mliebelt/pgn-parser" "1.2.5"
+    "@mliebelt/pgn-parser" "^1.3.5"
     chess.js "^0.10.3"
 
-"@mliebelt/pgn-viewer@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@mliebelt/pgn-viewer/-/pgn-viewer-1.5.1.tgz#45c0211c6ec6c867599f8a0764a5355ce9b49ccf"
-  integrity sha512-W/xPhIEvR9oMg3mugF2qTavMXZI7eWnOYV+vPQDg/3fWJUHbD3Gt986/BaJlabtlz4Hzzr9pSLKUQ6hvGB+fxw==
+"@mliebelt/pgn-viewer@^1.5.12":
+  version "1.5.12"
+  resolved "https://registry.yarnpkg.com/@mliebelt/pgn-viewer/-/pgn-viewer-1.5.12.tgz#e12d514c9f7fcc36a20ec90a61a9d827fa181c50"
+  integrity sha512-zdmdKsZNAohWHGBTPPFUD78+2q/9QKxTf1uJ1CyFzz2WGIgoQPYq6z2e+TSa8CV7fgaitrjNWUhhbLZXnZMDAQ==
   dependencies:
-    "@mliebelt/pgn-reader" "^1.2.1"
-    chessground "^7.11.1"
+    "@mliebelt/pgn-reader" "^1.2.10"
+    chessground "7.11.1"
     mousetrap "^1.6.5"
     roddeh-i18n "^1.2.0"
     smoothscroll-polyfill "^0.4.4"
@@ -5380,7 +5380,7 @@ chess.js@^0.10.3:
   resolved "https://registry.yarnpkg.com/chess.js/-/chess.js-0.10.3.tgz#8c3b98e8411c2ff3ab4b1fc022ddebd1ae037120"
   integrity sha512-i51JgVM0ksFMbLJYKoDpfrcFxJHq/XQQx8NltCdfMyDv7vpU5JVzsZz1EOw7nA27eGA5t8tSxodAN+Wc704BoQ==
 
-chessground@^7.11.1, chessground@^7.6.12:
+chessground@7.11.1, chessground@^7.6.12:
   version "7.11.1"
   resolved "https://registry.yarnpkg.com/chessground/-/chessground-7.11.1.tgz#7e126d660d63025f9bf27371a8778e2baeeb1b57"
   integrity sha512-IwGSEZBsQlquHyudv1Y5EwlfTXrz0CEWisJuEim2W3eX07IBpYUsr0ChTD35du+Cr0x1+e6GbCLY3hVejKG7ow==
