@@ -11662,10 +11662,10 @@ npm-user-validate@*:
   resolved "https://registry.yarnpkg.com/npm-user-validate/-/npm-user-validate-1.0.1.tgz#31428fc5475fe8416023f178c0ab47935ad8c561"
   integrity sha512-uQwcd/tY+h1jnEaze6cdX/LrhWhoBxfSknxentoqmIuStxUExxjWd3ULMLFPiFUrZKbOVMowH6Jq2FRWfmhcEw==
 
-npm@^8.1.2:
-  version "8.1.2"
-  resolved "https://registry.yarnpkg.com/npm/-/npm-8.1.2.tgz#d273423f06113f2fa95319e24438ec0cc20358d9"
-  integrity sha512-9awPeSZ+3sS4cBwGsJQnbt3M+ZyBRBokEJYdm2nmu9n8HSuGEEOR1cLy7NLB08veoj21I6ZtMhwM1ARz6HWYHg==
+npm@^8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/npm/-/npm-8.3.0.tgz#03d32b0ddb07a5865726baf7149bb0475023df4d"
+  integrity sha512-ug4xToae4Dh3yZh8Fp6MOnAPSS3fqCTANpJx1fXP2C4LTUzoZf7rEantHQR/ANPVYDBe5qQT4tGVsoPqqiYZMw==
   dependencies:
     "@isaacs/string-locale-compare" "*"
     "@npmcli/arborist" "*"
@@ -11722,6 +11722,7 @@ npm@^8.1.2:
     opener "*"
     pacote "*"
     parse-conflict-json "*"
+    proc-log "*"
     qrcode-terminal "*"
     read "*"
     read-package-json "*"
@@ -13533,7 +13534,7 @@ prismjs@^1.23.0:
   optionalDependencies:
     clipboard "^2.0.0"
 
-proc-log@^1.0.0:
+proc-log@*, proc-log@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/proc-log/-/proc-log-1.0.0.tgz#0d927307401f69ed79341e83a0b2c9a13395eb77"
   integrity sha512-aCk8AO51s+4JyuYGg3Q/a6gnrlDO09NpVWePtjp7xwphcoQ04x5WAfCyugcsbLooWcMJ87CLkD4+604IckEdhg==
